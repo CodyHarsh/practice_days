@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(250, 247, 244);
+    padding: 0px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+h1,h3{
+    text-align: center;
+}
+
+.assignment_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.point_wrapper{
+    height: max-content;
+    width: 60%;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 4px rgb(67, 44, 44, 0.2);
+}
+
+.point_wrapper:hover{
+    background-color: wheat;
+    box-shadow: 3px 2px rgb(67, 44, 44, 0.2);
+}
+
+
+/* Assignment 2 */
+.assignment2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 50px;
+}
+
+.assignment2 .movie_details_parent{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.assignment2 .movie_details{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 5px 3px rgb(24, 21, 21, 0.2);
+    border-radius: 7px;
+
+}
+
+.assignment2 .movie_details .movie_image{
+    height: 300px;
+    width: 250px;
+    border: 0.5px solid rgb(38, 37, 37);
+    overflow: hidden;
+    border-radius: 4px;
+}
+.assignment2 .movie_details .movie_image img{
+    height: 100%;
+    width: 100%;
+}
+
+.timetable_wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+tr,td,th{
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+th{
+    background-color: aliceblue;
+}
+
+td{
+    background-color: antiquewhite;
+}
